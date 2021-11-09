@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;0,700;1,400&family=Fraunces:wght@700;900&display=swap');
+
+.container {
+  display: flex;
+  justify-content: between;
+  align-items: center;
+  height: 85vh;
+}
+
+.photo {
+  background-image: url("../public/desktop/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: center;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 0.5rem;
+}
+
+.graphics {
+  background-image: url("../public/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: center;
+
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 0.5rem;
+}
+
+.textWrapper {
+  width: 55%;
+  text-align: center;
+  font-family: "Barlow";
+}
+.textWrapper p {
+  color:hsl(198, 62%, 26%);
+  font-weight: 600;
+}
+.graphics .textWrapper p {
+  color:hsl(167, 40%, 24%);
+
+
+}
+.textWrapper h3 {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  color:hsl(198, 62%, 26%);
+}
+.graphics .textWrapper h3{
+  color:hsl(167, 40%, 24%);
+}
+.right img {
+  width: 100%;
+  object-fit: center;
+}

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;0,700;1,400&family=Fraunces:wght@700;900&display=swap");
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container h4 {
+  font-size: 25px;
+  font-family: "Fraunces", serif;
+  color: hsl(213, 9%, 39%);
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid tomato; */
+}
+.testimonialWrapper {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 420px);
+  grid-gap: 1rem;
+}
+.imgWrapper {
+  width: 70px;
+  height: 70px;
+  margin-top: 5px;
+  /* margin-block-end: auto; */
+  border-radius: 50%;
+}
+.imgWrapper img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.testText {
+  text-align: center;
+  margin: 20px 0;
+}
+.testText p {
+  font-family: "Barlow";
+  width: 85%;
+  font-size: 18px;
+  margin: auto;
+  color: hsl(212, 27%, 19%);
+}
+.author {
+  text-align: center;
+}
+.author p:first-child {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: hsl(212, 27%, 19%);
+}
+
+.author p:last-child {
+  color: hsl(213, 9%, 39%);
+  font-weight: bold;
+}

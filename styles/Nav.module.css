@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlinks {
+  list-style-type: none;
+  display: flex;
+}
+.navlinks li {
+  margin-right: 25px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+.navlinks li:last-child {
+  padding: 10px 22px;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+
+.navlinks li:last-child:hover {
+  background-color: rgba(167, 171, 174, 0.5);
+  color: white;
+
+}

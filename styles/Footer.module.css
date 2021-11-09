@@ -1,0 +1,59 @@
+.container {
+  background-color: hsl(168, 34%, 41%);
+  display: grid;
+  place-items: center;
+  min-height: 300px;
+}
+
+.content {
+  width: 50%;
+}
+.content ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.link div a {
+  color: hsl(167, 40%, 24%);
+  font-weight: 600;
+}
+.socials ul {
+  display: flex;
+  justify-content: center;
+}
+.link {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.link div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.link div a {
+  transition: all .3s ease;
+}
+.link div a:hover {
+  color:white;
+}
+.socials ul li {
+  margin-right: 15px;
+  color: hsl(167, 40%, 24%);
+  cursor: pointer;
+}
+.logo path {
+  transition: all 0.3s ease;
+}
+.socials ul li:hover .logo path {
+  fill: #fff;
+  cursor: pointer;
+  display: block;
+  /* display: none; */
+}
+.content .top {
+  margin: auto;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}

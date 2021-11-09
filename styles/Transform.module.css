@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,400&family=Fraunces:wght@400;700&display=swap");
+
+.container {
+  margin-top: 5px;
+  display: flex;
+  justify-content: between;
+  /* align-items: center; */
+  height: 85vh;
+  /* border: 1px solid tomato; */
+}
+.left {
+  display: grid;
+  place-items: center;
+  width: 50%;
+}
+.textWrapper h2 {
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+}
+.textWrapper a {
+  transition: text-decoration 0.3s ease;
+}
+.textWrapper a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: hsl(51, 100%, 49%);
+
+}
+.right {
+  width: 50%;
+}
+.textWrapper {
+  width: 50%;
+}
+.imageWrapper {
+  height: 100%;
+}
+.imageWrapper img {
+  width: 100%;
+  min-height: 100%;
+}
